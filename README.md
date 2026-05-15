@@ -18,10 +18,7 @@ This project replaces that consumable-heavy setup with a rechargeable lithium pa
 
 - Rechargeable power instead of repeatedly buying and discarding alkaline batteries.
 - USB-C charging, including from a wall charger, power bank, or field charging setup.
-- Fewer loose cells to carry, sort, and replace during a shoot.
 - A more compact internal power layout built around one pouch cell and regulated output electronics.
-
-Lithium batteries still require responsible handling and recycling. This design is meant to reduce disposable battery use, not to avoid battery safety rules.
 
 ## Repository Contents
 

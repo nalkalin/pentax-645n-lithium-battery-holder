@@ -6,6 +6,8 @@ Chinese documentation: [README.zh-CN.md](README.zh-CN.md)
 
 ![Assembled holder render](images/assembled-holder-perspective.png)
 
+![Six-view contact sheet](images/six-view-contact-sheet.png)
+
 > Safety note: this is a DIY camera power modification. Verify the boost board output voltage and output polarity with a multimeter before inserting the holder into a camera. Use insulated wiring, avoid exposed contacts, and do not charge or operate damaged/swollen LiPo cells.
 
 ## Repository Contents
@@ -50,8 +52,6 @@ Core parts:
 - Recommended process: SLA/MSLA/DLP resin printing for better dimensional accuracy and small contact/screw features.
 - Recommended resin: tough resin, ABS-like resin, or other engineering resin with good impact resistance.
 - Resin layer height: 0.03-0.05 mm.
-- FDM fallback: PETG or ABS/ASA can be used for test prints, but small details may need cleanup; PLA+ is best treated as a fit-check material.
-- FDM layer height: 0.16-0.20 mm, 3 or more walls, 30-40% infill.
 - Supports: enable where your slicer shows unsupported overhangs, especially inside the main body and locking base. For resin printing, orient the parts to avoid suction cups and to protect contact surfaces.
 
 Always test fit the printed parts before installing electronics.

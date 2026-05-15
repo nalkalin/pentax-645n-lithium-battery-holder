@@ -6,6 +6,8 @@ English documentation: [README.md](README.md)
 
 ![装配效果图](images/assembled-holder-perspective.png)
 
+![六视图 contact sheet](images/six-view-contact-sheet.png)
+
 > 安全提醒：这是相机供电 DIY 改装。装入相机前，请一定用万用表确认升压板输出电压和最终触点正负极。焊点和金属触点必须绝缘，不能让金属边缘接触或挤压锂电池软包。不要使用鼓包、破损或异常发热的锂电池。
 
 ## 适用型号
@@ -40,7 +42,6 @@ English documentation: [README.md](README.md)
 - 推荐树脂：韧性树脂、类 ABS 树脂，或其他抗冲击能力较好的工程树脂。
 - 推荐层高：0.03-0.05 mm。
 - 摆放方向：尽量避开关键接触面上支撑，避免形成封闭吸盘区域，打印后清理触点槽和螺丝孔。
-- FDM 可用于试装或验证尺寸，建议 PETG、ABS 或 ASA；PLA+ 更适合临时试装，不建议长期放在高温环境中使用。
 
 ## 材料清单
 

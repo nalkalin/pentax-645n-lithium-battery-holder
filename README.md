@@ -2,7 +2,7 @@
 
 3D-printable battery holder for converting a Pentax 645N or Pentax 645N II battery insert to a rechargeable lithium battery setup. The design is sized around a 103450 3.7 V LiPo pouch cell and a small lithium charge/boost board.
 
-Chinese documentation: [README.zh-CN.md](README.zh-CN.md)
+中文版: [README.zh-CN.md](README.zh-CN.md)
 
 ![Assembled holder render](images/assembled-holder-perspective.png)
 
@@ -45,6 +45,10 @@ Core parts:
 - Copper/brass/nickel strip for battery contacts, wire, heat-shrink, and insulation tape.
 
 ![Materials reference](images/hardware-screws-and-nuts.jpg)
+
+![103450 LiPo pouch cell](images/103450-lipo-cell.png)
+
+![Lithium charge/boost module](images/lithium-charge-boost-board.jpg)
 
 ## Print Notes
 

@@ -3,10 +3,12 @@
 ## Printing
 
 - Import STL files in millimeters at 100% scale.
-- PETG, ABS, or ASA is recommended for a functional holder. PLA+ is useful for quick test prints but can deform in hot storage.
-- Start with 0.16-0.20 mm layer height, at least 3 walls, and 30-40% infill.
-- Use supports where needed for internal ledges and the locking-base geometry.
-- Print the small retainers slowly so the screw/contact features stay crisp.
+- SLA/MSLA/DLP resin printing is recommended because the holder has small screw, contact, and locking features.
+- Use tough resin, ABS-like resin, or another engineering resin with good impact resistance.
+- Start with 0.03-0.05 mm resin layer height.
+- Orient parts to protect the camera-facing surfaces, avoid suction cups, and keep supports away from critical contact slots where possible.
+- FDM fallback: PETG, ABS, or ASA can be used for test prints, but small features may need cleanup. PLA+ is useful for quick test fits but can deform in hot storage.
+- FDM starting point: 0.16-0.20 mm layer height, at least 3 walls, and 30-40% infill.
 
 After printing, test the parts together before soldering any electronics. Lightly deburr the edges that contact the camera battery bay.
 

@@ -1,6 +1,8 @@
-# Pentax 645N Lithium Battery Holder
+# Pentax 645N / 645N II Lithium Battery Holder
 
-3D-printable battery holder for converting a Pentax 645N battery insert to a rechargeable lithium battery setup. The design is sized around a 103450 3.7 V LiPo pouch cell and a small lithium charge/boost board.
+3D-printable battery holder for converting a Pentax 645N or Pentax 645N II battery insert to a rechargeable lithium battery setup. The design is sized around a 103450 3.7 V LiPo pouch cell and a small lithium charge/boost board.
+
+Chinese documentation: [README.zh-CN.md](README.zh-CN.md)
 
 ![Assembled holder render](images/assembled-holder-perspective.png)
 
@@ -45,11 +47,12 @@ Core parts:
 ## Print Notes
 
 - Units: millimeters.
-- Material: PETG or ABS/ASA preferred for durability; PLA+ can work for test fits.
-- Layer height: 0.16-0.20 mm.
-- Walls/perimeters: 3 or more.
-- Infill: 30-40%.
-- Supports: enable where your slicer shows unsupported overhangs, especially inside the main body and locking base.
+- Recommended process: SLA/MSLA/DLP resin printing for better dimensional accuracy and small contact/screw features.
+- Recommended resin: tough resin, ABS-like resin, or other engineering resin with good impact resistance.
+- Resin layer height: 0.03-0.05 mm.
+- FDM fallback: PETG or ABS/ASA can be used for test prints, but small details may need cleanup; PLA+ is best treated as a fit-check material.
+- FDM layer height: 0.16-0.20 mm, 3 or more walls, 30-40% infill.
+- Supports: enable where your slicer shows unsupported overhangs, especially inside the main body and locking base. For resin printing, orient the parts to avoid suction cups and to protect contact surfaces.
 
 Always test fit the printed parts before installing electronics.
 

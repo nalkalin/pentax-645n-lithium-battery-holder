@@ -20,6 +20,11 @@ This project replaces that consumable-heavy setup with a rechargeable lithium pa
 - USB-C charging, including from a wall charger, power bank, or field charging setup.
 - A more compact internal power layout built around one pouch cell and regulated output electronics.
 
+## Compatible Models
+
+- Pentax 645N
+- Pentax 645N II
+
 ## Repository Contents
 
 | Path | Description |
@@ -41,6 +46,16 @@ All STL dimensions are in millimeters. Import at 100% scale.
 | `models/pentax-645n-lithium-holder-lower-contact-spacer.stl` | 12.09 x 24.78 x 5.48 mm |
 | `models/pentax-645n-lithium-holder-bottom-contact-retainer.stl` | 15.02 x 21.20 x 3.69 mm |
 
+## Print Notes
+
+- Units: millimeters.
+- Recommended process: SLA/MSLA/DLP resin printing for better dimensional accuracy and small contact/screw features.
+- Recommended resin: tough resin, ABS-like resin, or other engineering resin with good impact resistance.
+- Resin layer height: 0.03-0.05 mm.
+- Supports: enable where your slicer shows unsupported overhangs, especially inside the main body and locking base. For resin printing, orient the parts to avoid suction cups and to protect contact surfaces.
+
+Always test fit the printed parts before installing electronics.
+
 ## Materials
 
 See [docs/bill-of-materials.md](docs/bill-of-materials.md) for the full list.
@@ -59,16 +74,6 @@ Core parts:
 ![103450 LiPo pouch cell](images/103450-lipo-cell.png)
 
 ![Lithium charge/boost module](images/lithium-charge-boost-board.jpg)
-
-## Print Notes
-
-- Units: millimeters.
-- Recommended process: SLA/MSLA/DLP resin printing for better dimensional accuracy and small contact/screw features.
-- Recommended resin: tough resin, ABS-like resin, or other engineering resin with good impact resistance.
-- Resin layer height: 0.03-0.05 mm.
-- Supports: enable where your slicer shows unsupported overhangs, especially inside the main body and locking base. For resin printing, orient the parts to avoid suction cups and to protect contact surfaces.
-
-Always test fit the printed parts before installing electronics.
 
 ## Assembly Overview
 

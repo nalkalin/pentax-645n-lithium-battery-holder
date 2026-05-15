@@ -1,0 +1,8 @@
+.DS_Store
+._*
+Thumbs.db
+contact-sheet.jpg
+*.gcode
+*.bgcode
+*.3mf
+*.tmp

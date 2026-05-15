@@ -10,6 +10,19 @@
 
 > Safety note: this is a DIY camera power modification. Verify the boost board output voltage and output polarity with a multimeter before inserting the holder into a camera. Use insulated wiring, avoid exposed contacts, and do not charge or operate damaged/swollen LiPo cells.
 
+## Design Philosophy
+
+The original Pentax 645N/645N II battery holder uses six AA alkaline batteries. That works, but it is not ideal for frequent use: disposable alkaline cells create avoidable waste, need to be replaced often, and make it easy to end up carrying extra batteries just to keep the camera running.
+
+This project replaces that consumable-heavy setup with a rechargeable lithium pack. The goal is to keep these medium-format cameras practical for daily use while reducing reliance on single-use AA cells. A LiPo cell with a charge/boost board offers several advantages:
+
+- Rechargeable power instead of repeatedly buying and discarding alkaline batteries.
+- USB-C charging, including from a wall charger, power bank, or field charging setup.
+- Fewer loose cells to carry, sort, and replace during a shoot.
+- A more compact internal power layout built around one pouch cell and regulated output electronics.
+
+Lithium batteries still require responsible handling and recycling. This design is meant to reduce disposable battery use, not to avoid battery safety rules.
+
 ## Repository Contents
 
 | Path | Description |

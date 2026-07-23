@@ -15,11 +15,11 @@ After printing, test the parts together before soldering any electronics. Lightl
 1. Dry-fit the main body and locking base.
 2. Test the M2.5 and M1.2 hardware in the printed parts.
 3. Shape the copper/brass/nickel strip contacts and confirm they sit flat in the printed retainers.
-4. Place the LiPo cell in the holder without pinching or bending the pouch.
-5. Mount the charge/boost board where the USB-C port and wiring remain accessible.
-6. Solder the battery leads to `B+` and `B-`.
-7. Solder the output leads from `VO+` and `VO-` to the camera-facing contacts.
-8. Use a multimeter to check output voltage, polarity, and continuity.
+4. Place two matched 3.7 V lithium cells in the holder without pinching, bending, or rubbing either cell.
+5. Connect the cells in series as a 2S pack and mount the 2S charge/boost board where the USB-C port and wiring remain accessible.
+6. Wire the pack, protection/charging connections, and output leads according to the documentation and markings for the exact module being used.
+7. Connect the regulated output to the camera-facing contacts.
+8. Use a multimeter to check pack voltage, regulated output voltage, polarity, continuity, and absence of shorts.
 9. Insulate exposed solder joints and sharp metal edges.
 10. Install the holder into the camera only after the electrical checks pass.
 
@@ -35,4 +35,4 @@ After printing, test the parts together before soldering any electronics. Lightl
 
 ## Safety
 
-LiPo cells can be damaged by puncture, crushing, over-discharge, over-charge, or short circuits. If the cell becomes hot, swollen, punctured, or smells unusual, stop using it immediately and dispose of it according to local battery rules.
+Lithium cells can be damaged by puncture, crushing, over-discharge, over-charge, imbalance, or short circuits. Do not mix cell models, capacities, ages, or states of charge in the 2S pack. If either cell becomes hot, swollen, punctured, or smells unusual, stop using the pack immediately and dispose of it according to local battery rules.

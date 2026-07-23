@@ -16,14 +16,14 @@ This list is based on the reference material images included in this repository.
 
 | Quantity | Part | Notes |
 | ---: | --- | --- |
-| 1 | 103450 LiPo pouch cell, 3.7 V, about 2000 mAh | The reference image shows a 103450 cell. Use a protected cell or a module with cell protection. |
-| 1 | Lithium charge/boost board, USB-C input | The reference board has `B+`, `B-`, `VO+`, and `VO-` pads. Confirm the regulated output voltage before connecting to the camera. |
+| 2 | Matched 3.7 V lithium cells | Use the same model, capacity, age, and state of charge. Connect in series as a 2S pack (7.4 V nominal, 8.4 V fully charged). The 103450 image is a size reference only; verify that two selected cells fit safely. |
+| 1 | 2S lithium charge/boost board, USB-C input | Must support charging/protection for the selected 2S pack. Follow the exact board's documentation and confirm the regulated output voltage before connecting the camera. |
 | As needed | Flexible silicone wire | Use appropriate gauge for the current draw. |
 | As needed | Heat-shrink, Kapton tape, or other insulation | Cover every exposed solder joint and metal edge near the LiPo cell. |
 
-![103450 LiPo cell](../images/103450-lipo-cell.png)
+![Lithium cell size reference](../images/103450-lipo-cell.png)
 
-![Lithium charge/boost board](../images/lithium-charge-boost-board.jpg)
+![2S lithium charge/boost board](../images/2s-lithium-charge-boost-board.png)
 
 ## Hardware
 
@@ -38,8 +38,10 @@ This list is based on the reference material images included in this repository.
 
 ## Electrical Checklist
 
+- Confirm that the two cells are matched and connected as a 2S pack.
+- Confirm that the protection/charging arrangement is intended for 2S operation.
 - Confirm the boost board output voltage matches the camera's expected battery input.
 - Confirm the final contact polarity before installing the holder.
 - Check for shorts between positive and negative contacts.
-- Do not let metal contacts rub into the LiPo pouch.
+- Do not let metal contacts rub into either lithium cell.
 - Do not charge unattended.
